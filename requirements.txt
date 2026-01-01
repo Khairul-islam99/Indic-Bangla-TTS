@@ -1,0 +1,21 @@
+# --- API & Server ---
+fastapi>=0.109.0
+uvicorn>=0.27.0
+pydantic>=2.6.0
+
+# --- Audio & Math ---
+soundfile>=0.12.1
+scipy>=1.12.0
+numpy>=1.26.0
+
+# --- Utilities ---
+requests>=2.31.0
+transformers>=4.38.0
+tqdm>=4.66.0
+
+# --- Model Engine ---
+git+https://github.com/huggingface/parler-tts.git
+
+# --- PyTorch Note ---
+# Note: 'torch', 'torchvision', and 'torchaudio' are excluded here to prevent 
+# installation of the wrong CUDA version. Please see README.md for installation.

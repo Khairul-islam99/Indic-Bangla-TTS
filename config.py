@@ -13,7 +13,7 @@ MODEL_ID = "ai4bharat/indic-parler-tts"
 # "Rashmi" is selected for her clear, soft, and calm voice.
 # Modification of this string will affect the voice style globally.
 VOICE_DESCRIPTION = (
-    "Rashmi speaks slowly with a soft and calm voice in a very clear studio recording"
+    "Rashmi speaks slowly with a soft, warm, and emotional tone, the delivery is calm and soothing, perfect for storytelling, the audio is crystal clear and sounds very close up."
 )
 
 # =============================================================================

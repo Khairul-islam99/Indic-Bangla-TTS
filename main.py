@@ -37,7 +37,7 @@ def health_check():
     return {
         "status": "active", 
         "service": "Indic Parler TTS API", 
-        "voice_profile": "Fixed (Configured in config.py)",
+        "voice_profile": "(Configured in config.py)",
         # ✅ Hardware Diagnostics added here
         "hardware": {
             "device": "cuda" if is_gpu_available else "cpu",

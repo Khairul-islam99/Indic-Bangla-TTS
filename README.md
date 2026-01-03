@@ -34,7 +34,7 @@ pip install -r requirements.txt
 1. Start the Server
 Run the main application file. The server will initialize the model (this may take a minute) and start listening for requests.
 ```bash
-python main.py
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 2. API Documentation
 Access the interactive Swagger UI to test endpoints manually:

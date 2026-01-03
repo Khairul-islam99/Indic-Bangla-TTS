@@ -14,7 +14,7 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 app = FastAPI(
     title="Indic Parler TTS API",
     description="Professional Bengali Text-to-Speech API with fixed voice profiling.",
-    version="1.0.0"
+    version="1.0"
 )
 
 class TTSRequest(BaseModel):
